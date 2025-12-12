@@ -18,7 +18,7 @@ export default function HomePage() {
       <Features />
       <PublicationTimeline />
       <TrustIndicators />
-      <div className="container py-8">
+      <div className="container mx-auto py-8">
         <DeadlineProgress />
       </div>
       <KeyDates />

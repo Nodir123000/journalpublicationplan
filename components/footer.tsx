@@ -183,11 +183,11 @@ export function Footer() {
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
             <div className="flex items-center gap-4">
               <Image
-                src="/wellprog-logo.jpg"
+                src="/logo.png"
                 alt="WELLPROG"
                 width={60}
                 height={60}
-                className="rounded-lg bg-white/90 p-2"
+                className="rounded-lg border p-2"
               />
               <div>
                 <p className="text-sm font-semibold text-primary-foreground/90">

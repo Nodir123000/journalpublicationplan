@@ -41,12 +41,12 @@ export function StatsSection() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-primary/5 via-accent/5 to-primary/10 relative overflow-hidden">
+    <section className="py-20  bg-gradient-to-br from-primary/5 via-accent/5 to-primary/10 relative overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
       <div className="absolute top-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
 
-      <div className="container relative z-10">
+      <div className="container mx-auto relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-balance">{t.title}</h2>
         <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
           {language === "uz" && "Raqamlarda bizning muvaffaqiyatlarimiz"}

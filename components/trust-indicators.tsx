@@ -53,7 +53,7 @@ export function TrustIndicators() {
 
   return (
     <section className="py-16 bg-muted/30">
-      <div className="container">
+      <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12 text-balance">{t.title}</h2>
 
         <div className="grid md:grid-cols-4 gap-6 mb-12">

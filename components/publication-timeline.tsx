@@ -56,7 +56,7 @@ export function PublicationTimeline() {
 
   return (
     <section className="py-16 bg-background">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-3 text-balance">{t.title}</h2>
           <p className="text-muted-foreground">{t.subtitle}</p>
